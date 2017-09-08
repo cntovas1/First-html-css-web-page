@@ -1,0 +1,80 @@
+body{
+	background-color: #F0F0F0;
+}
+
+h1{
+	font-family: Impact, sans-serif;
+	font-size: 80px;
+	text-shadow: 5px 1px 0 red;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.about{
+	font-family: Impact, sans-serif;
+	font-style: italic;
+}
+
+.nav{
+	font-family: Impact, sans-serif;
+	font-style: italic;
+}
+
+.content{
+	height: 360px;
+	color: black; 
+}
+
+.quote1{
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+.quote1:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.wrap{
+	width: 600px;
+	margin: auto;
+}
+
+.content{
+	border: groove;
+	border-color: red;
+	float: left;
+	width: 450px;
+}
+
+aside{
+	float: left;
+	padding-left: 10px;
+	
+
+}
+
+aside ul{
+	list-style: none;
+	padding-left: 20px;
+}
+
+ul a{
+	text-decoration: none;
+	font-family: sans-serif;
+	color: #191817;
+}
+
+ul a:hover{
+color: red;
+}
+
+.about{
+	font-style: italic;
+}
